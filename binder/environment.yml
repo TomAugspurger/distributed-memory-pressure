@@ -42,4 +42,3 @@ dependencies:
     - git+https://github.com/dask/dask
     - git+https://github.com/TomAugspurger/distributed.git@2602-schedule
     - git+https://github.com/dask/dask-kubernetes
-
