@@ -16,5 +16,5 @@ Features
 .. _pangeo.binder.io: http://binder.pangeo.io/
 
 .. |Binder| image:: http://binder.pangeo.io/badge.svg
-    :target: http://binder.pangeo.io/v2/gh/TomAugspurger/memory_pressure/master
+    :target: http://binder.pangeo.io/v2/gh/TomAugspurger/distributed-memory-pressure/master
 

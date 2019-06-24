@@ -4,7 +4,6 @@ channels:
 dependencies:
   - python=3.6
   - xarray
-  - dask-kubernetes
   - gcsfs
   - intake::intake-xarray
   - zarr
@@ -22,16 +21,25 @@ dependencies:
   - graphviz
   - nodejs
   - bokeh >=0.13.0
-  - cloudpickle >=0.2.1
-  - cytoolz >=0.7.3
-  - distributed >=1.28.0
   - numpy >=1.13.0
   - pandas >=0.21.0
   - partd >=0.3.10
-  - toolz >=0.7.3
+  - click >=6.6
+  - cloudpickle >=0.2.2
+  - cytoolz >=0.7.4
+  - msgpack-python
+  - psutil >=5.0
+  - pyyaml
+  - six
+  - sortedcontainers !=2.0.0,!=2.0.1
+  - tblib
+  - toolz >=0.7.4
+  - tornado >=5
+  - zict >=0.1.3
   - pip:
     - kubernetes
     - graphviz
     - git+https://github.com/dask/dask
     - git+https://github.com/TomAugspurger/distributed.git@2602-schedule
+    - git+https://github.com/dask/dask-kubernetes
 
