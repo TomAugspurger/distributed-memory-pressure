@@ -4,6 +4,6 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              @jupyterlab/hub-extension@0.12 \
                              @pyviz/jupyterlab_pyviz \
                              jupyter-leaflet \
-                             dask-labextension
+                             dask-labextension@1.0.0-rc.0
 
 #EOF
