@@ -5,18 +5,12 @@ dependencies:
   - python=3.6
   - xarray
   - gcsfs
-  - intake::intake-xarray
   - zarr
-  - matplotlib
-  - numcodecs
-  - python-blosc
-  - lz4
   - nomkl
   - nbserverproxy
   - jupyter
-  # - jupyterlab=0.35
-  - jupyterlab_launcher
   - jupyter_client
+  - jupyterlab
   - ipywidgets
   - graphviz
   - nodejs
@@ -40,7 +34,6 @@ dependencies:
     - kubernetes
     - graphviz
     - git+https://github.com/dask/dask
-    - git+https://github.com/TomAugspurger/distributed.git@2602-schedule
+    - git+https://github.com/TomAugspurger/distributed.git@violations
     - git+https://github.com/dask/dask-kubernetes
-    - jupyterlab==1.0.0rc0
-    - dask-labextension==0.4.0a1
+    - dask-labextension
