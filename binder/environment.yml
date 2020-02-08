@@ -32,6 +32,7 @@ dependencies:
   - dask-kubernetes
   - xarray
   - zarr
+  - pip
   - pip:
     - kubernetes
     - graphviz
