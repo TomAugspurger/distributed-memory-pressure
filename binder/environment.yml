@@ -12,6 +12,7 @@ dependencies:
   - bokeh >=0.13.0
   - numpy >=1.13.0
   - dask-ml
+  - xgboost
   - scikit-learn
   - joblib
   - pip:
