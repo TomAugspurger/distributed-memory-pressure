@@ -1,11 +1,11 @@
-#!/bin/bash
-jupyter serverextension enable --py nbserverproxy --sys-prefix
-# TODO: Add back
-# - @jupyter-widgets/jupyterlab-manager. https://github.com/jupyter-widgets/ipywidgets/pull/2456
-# - jupyter-leaflet
-jupyter labextension install \
-                             @jupyterlab/hub-extension@1.0.0-alpha.6 \
-                             @pyviz/jupyterlab_pyviz \
-                             dask-labextension@1.0.0-rc.0
+# #!/bin/bash
+# jupyter serverextension enable --py nbserverproxy --sys-prefix
+# # TODO: Add back
+# # - @jupyter-widgets/jupyterlab-manager. https://github.com/jupyter-widgets/ipywidgets/pull/2456
+# # - jupyter-leaflet
+# jupyter labextension install \
+#                              @jupyterlab/hub-extension@1.0.0-alpha.6 \
+#                              @pyviz/jupyterlab_pyviz \
+#                              dask-labextension@1.0.0-rc.0
 
-#EOF
+# #EOF
