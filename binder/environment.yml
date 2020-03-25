@@ -15,6 +15,7 @@ dependencies:
   - xgboost
   - scikit-learn
   - joblib
+  - dask-kubernetes
   - pip:
     - kubernetes
     - graphviz
